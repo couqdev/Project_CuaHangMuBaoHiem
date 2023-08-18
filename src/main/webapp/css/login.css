@@ -1,0 +1,108 @@
+.form-container{
+    width: 900px;
+    margin: auto;
+    font-size: 14px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 5px;
+    background-image: url("//localhost:8080/Project_CuaHangMuBaoHiem_war/img/login/nendangnhap.png");
+    /*opacity: 0.5;*/
+}
+
+.title{
+    text-align: center;
+    color: #FFD333;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.form-login{
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+}
+.form-group{
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+}
+.form-group .icon {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+.form-group input {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: 1px solid #FFD333;
+}
+.form-group a{
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 16px;
+}
+.form-group a:hover{
+    color: #FFD333;
+}
+.form-control{
+    border-radius: 5px;
+    height: 48px;
+}
+.form-group button {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #FFD333;
+    border: 1px solid #6c757d;
+    font-size: 22px;
+    color: #6c757d;
+    font-weight: bold;
+}
+.form-group button:hover{
+    color: #FFD333;
+    background-color: whitesmoke;
+    border: 1px solid #FFD333;
+}
+.form-footer{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-footer a{
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #6c757d;
+}
+.form-footer a:hover{
+    color: #FFD333;
+    border: 1px solid #FFD333;
+}
+.container-fluid .row .col-lg-9 .collapse .navbar-nav ul{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin-top: 8px;
+    margin-left: -130px;
+}
+.container-fluid .row .col-lg-9 .collapse .navbar-nav ul li{
+    list-style-type: none;
+    width: 160px;
+    height: 40px;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 10px;
+    background-color: #3D464D;
+    border-top: 1px solid #FFD333;
+}
+.container-fluid .row .col-lg-9 .collapse .navbar-nav ul li a{
+    margin-top: 10px;
+    text-decoration: none;
+}
+.container-fluid .row .col-lg-9 .collapse .navbar-nav.ml-auto div:hover ul{
+    display: block;
+}
